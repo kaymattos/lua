@@ -1,0 +1,70 @@
+html{ scroll-behavior: smooth;
+}
+body{
+    color: rgb(243, 170, 170);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: url(https://wallpaperaccess.com/full/1782352.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 124%; 
+}
+.emoji>li::before{
+  content: "🌙";
+}
+
+ul{  
+   display: flex;
+   justify-content: space-around ;
+   list-style-type: none;
+   padding: 13px;
+   font-size: 19px;
+   align-items: center;
+}
+a{
+color: aliceblue;
+text-decoration: none;
+ font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+header img{
+  width: 150px;
+  height: 187px;
+  border-radius: 15%;
+  border: 4px solid rgb(226, 213, 31); 
+}
+.center{
+    text-align: center;
+}
+h1{color: rgb(226, 213, 31);
+}
+h2{color: rgb(255, 255, 255);
+  font-size: 25px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+h3{color:black;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 18px;
+ text-shadow:rgb(243, 170, 170) 0.1em 0.1em 0.2em
+}
+h4{text-align: center;
+  font-size: 28px;
+}
+h4 :hover{color: rgb(226, 213, 31);
+}
+nav a:hover{color: rgb(226, 213, 31); 
+}
+nav a:active{color: rgb(243, 170, 170);
+}
+footer img{width: 40px;
+           height: 40px;
+}
+footer{display: flex;
+  justify-content: center;
+}
+footer a{margin: 20px;
+  text-align: center;
+}
+footer p{margin-top: 2px;
+}
+.espaço{
+  padding: 0px 70px;
+}
